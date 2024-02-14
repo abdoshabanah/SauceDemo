@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T14:06:51 EET" name="Default suite" finished-at="2024-02-14T14:07:04 EET" duration-ms="12975">
+    <groups>
+    </groups>
+    <test started-at="2024-02-14T14:06:51 EET" name="Default test" finished-at="2024-02-14T14:07:04 EET" duration-ms="12975">
+      <class name="tests.AddToCardTest">
+        <test-method is-config="true" signature="Startdriver()[pri:0, instance:tests.AddToCardTest@2767e23c]" started-at="2024-02-14T14:06:51 EET" name="Startdriver" finished-at="2024-02-14T14:07:00 EET" duration-ms="8797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startdriver -->
+        <test-method signature="SuccessLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tests.AddToCardTest@2767e23c]" started-at="2024-02-14T14:07:01 EET" name="SuccessLogin" data-provider="LoginData" finished-at="2024-02-14T14:07:02 EET" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessLogin -->
+        <test-method signature="AddToCard()[pri:2, instance:tests.AddToCardTest@2767e23c]" started-at="2024-02-14T14:07:02 EET" name="AddToCard" finished-at="2024-02-14T14:07:03 EET" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCard -->
+        <test-method signature="RemoveFromCard()[pri:3, instance:tests.AddToCardTest@2767e23c]" started-at="2024-02-14T14:07:03 EET" name="RemoveFromCard" finished-at="2024-02-14T14:07:03 EET" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFromCard -->
+        <test-method is-config="true" signature="CloseDriverContext()[pri:0, instance:tests.AddToCardTest@2767e23c]" started-at="2024-02-14T14:07:03 EET" name="CloseDriverContext" finished-at="2024-02-14T14:07:04 EET" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriverContext -->
+      </class> <!-- tests.AddToCardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

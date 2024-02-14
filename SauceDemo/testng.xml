@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+	
+	<test name="Test1" preserve-order="false" verbose="10">
+		<classes>
+			<class name="tests.LoginTest" />
+			<class name="tests.AddToCardTest"/>
+		</classes>
+	</test>
+</suite> 
+
