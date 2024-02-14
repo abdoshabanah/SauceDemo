@@ -1,7 +1,8 @@
 # First Part # SauceDemo 
 
 This framework is created to automate some test cases for the SauceDemo website.
-The project have 3 main packages: Pages, data & Tests Packages.
+The project is created using selenium webdriver and java using Page Object Model design pattern. 
+The Project have 3 main packages: Pages, data & Tests Packages.
 - The first one Pages, contain some classes created for each page of the product like: Login Page, Home Page,...
    these classes created containing the elements of each page and thier corresponding functionalities that would be used.
 
