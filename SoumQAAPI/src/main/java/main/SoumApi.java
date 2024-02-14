@@ -1,4 +1,4 @@
-package DemoProjectRA;
+package main;
 
 
 import static io.restassured.RestAssured.given;
