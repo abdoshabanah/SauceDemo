@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.*;
 public class SoumApi {
 
 	@Test 
-	public void CheckProductsAPI() {
+	public void CheckProductsAPI() { 
 		
 		RestAssured.baseURI = "https://api.qa.soum.sa";
 		
