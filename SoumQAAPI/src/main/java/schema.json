@@ -1,0 +1,1186 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "responseData": {
+      "type": "object",
+      "properties": {
+        "info": {
+          "type": "object",
+          "properties": {
+            "total": {
+              "type": "integer"
+            },
+            "pages": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "total",
+            "pages"
+          ]
+        },
+        "results": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "product_images": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "defected_images": {
+                  "type": "array",
+                  "items": {}
+                },
+                "description": {
+                  "type": "string"
+                },
+                "answer_to_questions": {
+                  "type": "string"
+                },
+                "answer_to_questions_ar": {
+                  "type": "string"
+                },
+                "answer_to_questions_migration": {
+                  "type": "string"
+                },
+                "answer_to_questions_ar_migration": {
+                  "type": "string"
+                },
+                "unansweredquestions": {
+                  "type": "string"
+                },
+                "unmatchedquestions": {
+                  "type": "string"
+                },
+                "grade": {
+                  "type": "string"
+                },
+                "grade_ar": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "previous_grade": {
+                  "type": "string"
+                },
+                "previous_score": {
+                  "type": "number"
+                },
+                "bidding": {
+                  "type": "array",
+                  "items": {}
+                },
+                "save_as_draft_step": {
+                  "type": "string"
+                },
+                "current_bid_price": {
+                  "type": "integer"
+                },
+                "favourited_by": {
+                  "type": "array",
+                  "items": {}
+                },
+                "status": {
+                  "type": "string"
+                },
+                "sell_status": {
+                  "type": "string"
+                },
+                "questionnaire_migration_status": {
+                  "type": "string"
+                },
+                "isApproved": {
+                  "type": "boolean"
+                },
+                "isExpired": {
+                  "type": "boolean"
+                },
+                "isFraudDetected": {
+                  "type": "boolean"
+                },
+                "verified_date": {
+                  "type": "null"
+                },
+                "isListedBefore": {
+                  "type": "boolean"
+                },
+                "highlights": {
+                  "type": "array",
+                  "items": {}
+                },
+                "attributes": {
+                  "type": "array",
+                  "items": {}
+                },
+                "highlightsAdded": {
+                  "type": "string"
+                },
+                "isReported": {
+                  "type": "boolean"
+                },
+                "reportedBy": {
+                  "type": "array",
+                  "items": {}
+                },
+                "isVerifiedByAdmin": {
+                  "type": "boolean"
+                },
+                "isPriceUpdating": {
+                  "type": "boolean"
+                },
+                "variant_attributes_selections": {
+                  "type": "array",
+                  "items": {}
+                },
+                "isBiddingProduct": {
+                  "type": "boolean"
+                },
+                "trade_in": {
+                  "type": "boolean"
+                },
+                "trade_in_status": {
+                  "type": "string"
+                },
+                "listingSource": {
+                  "type": "string"
+                },
+                "_id": {
+                  "type": "string"
+                },
+                "user_id": {
+                  "type": "string"
+                },
+                "category_id": {
+                  "type": "string"
+                },
+                "brand_id": {
+                  "type": "string"
+                },
+                "model_id": {
+                  "type": "string"
+                },
+                "varient": {
+                  "type": "string"
+                },
+                "varient_ar": {
+                  "type": "string"
+                },
+                "body_cracks": {
+                  "type": "string"
+                },
+                "sell_price": {
+                  "type": "integer"
+                },
+                "bid_price": {
+                  "type": "integer"
+                },
+                "pick_up_address": {
+                  "type": "object",
+                  "properties": {
+                    "address_id": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "postal_code": {
+                      "type": "string"
+                    },
+                    "address_type": {
+                      "type": "string"
+                    },
+                    "latitude": {
+                      "type": "string"
+                    },
+                    "longitude": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "address_id",
+                    "address",
+                    "city",
+                    "postal_code",
+                    "address_type",
+                    "latitude",
+                    "longitude"
+                  ]
+                },
+                "createdDate": {
+                  "type": "string"
+                },
+                "updatedDate": {
+                  "type": "string"
+                },
+                "__v": {
+                  "type": "integer"
+                },
+                "expiryDate": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "varient_id": {
+                  "type": "string"
+                },
+                "response": {
+                  "type": "string"
+                },
+                "model_migration_source": {
+                  "type": "string"
+                },
+                "model_variant_map_id": {
+                  "type": "string"
+                },
+                "variant_migration_source": {
+                  "type": "string"
+                },
+                "rejected_reasons": {
+                  "type": "null"
+                },
+                "rejected_timestamp": {
+                  "type": "null"
+                },
+                "image_updated": {
+                  "type": "string"
+                },
+                "verifiedByAdminDate": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "category_name_ar": {
+                      "type": "string"
+                    },
+                    "active": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "category_name_ar",
+                    "active"
+                  ]
+                },
+                "brand": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "brand_name_ar": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "brand_name_ar"
+                  ]
+                },
+                "model": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "model_name_ar": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "model_name_ar"
+                  ]
+                },
+                "variant": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "_id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "_id"
+                      ]
+                    }
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_images",
+                "defected_images",
+                "description",
+                "answer_to_questions",
+                "answer_to_questions_ar",
+                "answer_to_questions_migration",
+                "answer_to_questions_ar_migration",
+                "unansweredquestions",
+                "unmatchedquestions",
+                "grade",
+                "grade_ar",
+                "score",
+                "previous_grade",
+                "previous_score",
+                "bidding",
+                "save_as_draft_step",
+                "current_bid_price",
+                "favourited_by",
+                "status",
+                "sell_status",
+                "questionnaire_migration_status",
+                "isApproved",
+                "isExpired",
+                "isFraudDetected",
+                "verified_date",
+                "isListedBefore",
+                "highlights",
+                "attributes",
+                "highlightsAdded",
+                "isReported",
+                "reportedBy",
+                "isVerifiedByAdmin",
+                "isPriceUpdating",
+                "variant_attributes_selections",
+                "isBiddingProduct",
+                "trade_in",
+                "trade_in_status",
+                "listingSource",
+                "_id",
+                "user_id",
+                "category_id",
+                "brand_id",
+                "model_id",
+                "varient",
+                "varient_ar",
+                "body_cracks",
+                "sell_price",
+                "bid_price",
+                "pick_up_address",
+                "createdDate",
+                "updatedDate",
+                "__v",
+                "expiryDate",
+                "code",
+                "varient_id",
+                "response",
+                "model_migration_source",
+                "model_variant_map_id",
+                "variant_migration_source",
+                "rejected_reasons",
+                "rejected_timestamp",
+                "image_updated",
+                "verifiedByAdminDate",
+                "category",
+                "brand",
+                "model",
+                "variant",
+                "id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "product_images": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "defected_images": {
+                  "type": "array",
+                  "items": {}
+                },
+                "description": {
+                  "type": "string"
+                },
+                "answer_to_questions": {
+                  "type": "string"
+                },
+                "answer_to_questions_ar": {
+                  "type": "string"
+                },
+                "answer_to_questions_migration": {
+                  "type": "string"
+                },
+                "answer_to_questions_ar_migration": {
+                  "type": "string"
+                },
+                "unansweredquestions": {
+                  "type": "string"
+                },
+                "unmatchedquestions": {
+                  "type": "string"
+                },
+                "grade": {
+                  "type": "string"
+                },
+                "grade_ar": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "previous_grade": {
+                  "type": "string"
+                },
+                "previous_score": {
+                  "type": "number"
+                },
+                "bidding": {
+                  "type": "array",
+                  "items": {}
+                },
+                "save_as_draft_step": {
+                  "type": "string"
+                },
+                "current_bid_price": {
+                  "type": "integer"
+                },
+                "favourited_by": {
+                  "type": "array",
+                  "items": {}
+                },
+                "status": {
+                  "type": "string"
+                },
+                "sell_status": {
+                  "type": "string"
+                },
+                "questionnaire_migration_status": {
+                  "type": "string"
+                },
+                "isApproved": {
+                  "type": "boolean"
+                },
+                "isExpired": {
+                  "type": "boolean"
+                },
+                "isFraudDetected": {
+                  "type": "boolean"
+                },
+                "verified_date": {
+                  "type": "null"
+                },
+                "isListedBefore": {
+                  "type": "boolean"
+                },
+                "highlights": {
+                  "type": "array",
+                  "items": {}
+                },
+                "attributes": {
+                  "type": "array",
+                  "items": {}
+                },
+                "highlightsAdded": {
+                  "type": "string"
+                },
+                "isReported": {
+                  "type": "boolean"
+                },
+                "reportedBy": {
+                  "type": "array",
+                  "items": {}
+                },
+                "isVerifiedByAdmin": {
+                  "type": "boolean"
+                },
+                "isPriceUpdating": {
+                  "type": "boolean"
+                },
+                "variant_attributes_selections": {
+                  "type": "array",
+                  "items": {}
+                },
+                "isBiddingProduct": {
+                  "type": "boolean"
+                },
+                "trade_in": {
+                  "type": "boolean"
+                },
+                "trade_in_status": {
+                  "type": "string"
+                },
+                "listingSource": {
+                  "type": "string"
+                },
+                "_id": {
+                  "type": "string"
+                },
+                "user_id": {
+                  "type": "string"
+                },
+                "category_id": {
+                  "type": "string"
+                },
+                "brand_id": {
+                  "type": "string"
+                },
+                "model_id": {
+                  "type": "string"
+                },
+                "varient": {
+                  "type": "string"
+                },
+                "varient_ar": {
+                  "type": "string"
+                },
+                "body_cracks": {
+                  "type": "string"
+                },
+                "sell_price": {
+                  "type": "integer"
+                },
+                "bid_price": {
+                  "type": "integer"
+                },
+                "pick_up_address": {
+                  "type": "object",
+                  "properties": {
+                    "address_id": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "postal_code": {
+                      "type": "string"
+                    },
+                    "address_type": {
+                      "type": "string"
+                    },
+                    "latitude": {
+                      "type": "string"
+                    },
+                    "longitude": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "address_id",
+                    "address",
+                    "city",
+                    "postal_code",
+                    "address_type",
+                    "latitude",
+                    "longitude"
+                  ]
+                },
+                "createdDate": {
+                  "type": "string"
+                },
+                "updatedDate": {
+                  "type": "string"
+                },
+                "__v": {
+                  "type": "integer"
+                },
+                "expiryDate": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "varient_id": {
+                  "type": "string"
+                },
+                "response": {
+                  "type": "string"
+                },
+                "model_migration_source": {
+                  "type": "string"
+                },
+                "model_variant_map_id": {
+                  "type": "string"
+                },
+                "variant_migration_source": {
+                  "type": "string"
+                },
+                "rejected_reasons": {
+                  "type": "null"
+                },
+                "rejected_timestamp": {
+                  "type": "null"
+                },
+                "image_updated": {
+                  "type": "string"
+                },
+                "verifiedByAdminDate": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "category_name_ar": {
+                      "type": "string"
+                    },
+                    "active": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "category_name_ar",
+                    "active"
+                  ]
+                },
+                "brand": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "brand_name_ar": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "brand_name_ar"
+                  ]
+                },
+                "model": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "model_name_ar": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "model_name_ar"
+                  ]
+                },
+                "variant": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "_id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "_id"
+                      ]
+                    }
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_images",
+                "defected_images",
+                "description",
+                "answer_to_questions",
+                "answer_to_questions_ar",
+                "answer_to_questions_migration",
+                "answer_to_questions_ar_migration",
+                "unansweredquestions",
+                "unmatchedquestions",
+                "grade",
+                "grade_ar",
+                "score",
+                "previous_grade",
+                "previous_score",
+                "bidding",
+                "save_as_draft_step",
+                "current_bid_price",
+                "favourited_by",
+                "status",
+                "sell_status",
+                "questionnaire_migration_status",
+                "isApproved",
+                "isExpired",
+                "isFraudDetected",
+                "verified_date",
+                "isListedBefore",
+                "highlights",
+                "attributes",
+                "highlightsAdded",
+                "isReported",
+                "reportedBy",
+                "isVerifiedByAdmin",
+                "isPriceUpdating",
+                "variant_attributes_selections",
+                "isBiddingProduct",
+                "trade_in",
+                "trade_in_status",
+                "listingSource",
+                "_id",
+                "user_id",
+                "category_id",
+                "brand_id",
+                "model_id",
+                "varient",
+                "varient_ar",
+                "body_cracks",
+                "sell_price",
+                "bid_price",
+                "pick_up_address",
+                "createdDate",
+                "updatedDate",
+                "__v",
+                "expiryDate",
+                "code",
+                "varient_id",
+                "response",
+                "model_migration_source",
+                "model_variant_map_id",
+                "variant_migration_source",
+                "rejected_reasons",
+                "rejected_timestamp",
+                "image_updated",
+                "verifiedByAdminDate",
+                "category",
+                "brand",
+                "model",
+                "variant",
+                "id"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "product_images": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "defected_images": {
+                  "type": "array",
+                  "items": {}
+                },
+                "description": {
+                  "type": "string"
+                },
+                "answer_to_questions": {
+                  "type": "string"
+                },
+                "answer_to_questions_ar": {
+                  "type": "string"
+                },
+                "answer_to_questions_migration": {
+                  "type": "string"
+                },
+                "answer_to_questions_ar_migration": {
+                  "type": "string"
+                },
+                "unansweredquestions": {
+                  "type": "string"
+                },
+                "unmatchedquestions": {
+                  "type": "string"
+                },
+                "grade": {
+                  "type": "string"
+                },
+                "grade_ar": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number"
+                },
+                "previous_grade": {
+                  "type": "string"
+                },
+                "previous_score": {
+                  "type": "number"
+                },
+                "bidding": {
+                  "type": "array",
+                  "items": {}
+                },
+                "save_as_draft_step": {
+                  "type": "string"
+                },
+                "current_bid_price": {
+                  "type": "integer"
+                },
+                "favourited_by": {
+                  "type": "array",
+                  "items": {}
+                },
+                "status": {
+                  "type": "string"
+                },
+                "sell_status": {
+                  "type": "string"
+                },
+                "questionnaire_migration_status": {
+                  "type": "string"
+                },
+                "isApproved": {
+                  "type": "boolean"
+                },
+                "isExpired": {
+                  "type": "boolean"
+                },
+                "isFraudDetected": {
+                  "type": "boolean"
+                },
+                "verified_date": {
+                  "type": "null"
+                },
+                "isListedBefore": {
+                  "type": "boolean"
+                },
+                "highlights": {
+                  "type": "array",
+                  "items": {}
+                },
+                "attributes": {
+                  "type": "array",
+                  "items": {}
+                },
+                "highlightsAdded": {
+                  "type": "string"
+                },
+                "isReported": {
+                  "type": "boolean"
+                },
+                "reportedBy": {
+                  "type": "array",
+                  "items": {}
+                },
+                "isVerifiedByAdmin": {
+                  "type": "boolean"
+                },
+                "isPriceUpdating": {
+                  "type": "boolean"
+                },
+                "variant_attributes_selections": {
+                  "type": "array",
+                  "items": {}
+                },
+                "isBiddingProduct": {
+                  "type": "boolean"
+                },
+                "trade_in": {
+                  "type": "boolean"
+                },
+                "trade_in_status": {
+                  "type": "string"
+                },
+                "listingSource": {
+                  "type": "string"
+                },
+                "_id": {
+                  "type": "string"
+                },
+                "user_id": {
+                  "type": "string"
+                },
+                "category_id": {
+                  "type": "string"
+                },
+                "brand_id": {
+                  "type": "string"
+                },
+                "model_id": {
+                  "type": "string"
+                },
+                "varient": {
+                  "type": "string"
+                },
+                "varient_ar": {
+                  "type": "string"
+                },
+                "body_cracks": {
+                  "type": "string"
+                },
+                "sell_price": {
+                  "type": "integer"
+                },
+                "bid_price": {
+                  "type": "integer"
+                },
+                "pick_up_address": {
+                  "type": "object",
+                  "properties": {
+                    "address_id": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "postal_code": {
+                      "type": "string"
+                    },
+                    "address_type": {
+                      "type": "string"
+                    },
+                    "latitude": {
+                      "type": "string"
+                    },
+                    "longitude": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "address_id",
+                    "address",
+                    "city",
+                    "postal_code",
+                    "address_type",
+                    "latitude",
+                    "longitude"
+                  ]
+                },
+                "createdDate": {
+                  "type": "string"
+                },
+                "updatedDate": {
+                  "type": "string"
+                },
+                "__v": {
+                  "type": "integer"
+                },
+                "expiryDate": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "varient_id": {
+                  "type": "string"
+                },
+                "response": {
+                  "type": "string"
+                },
+                "model_migration_source": {
+                  "type": "string"
+                },
+                "model_variant_map_id": {
+                  "type": "string"
+                },
+                "variant_migration_source": {
+                  "type": "string"
+                },
+                "mismatch_model_migration": {
+                  "type": "string"
+                },
+                "rejected_reasons": {
+                  "type": "null"
+                },
+                "rejected_timestamp": {
+                  "type": "null"
+                },
+                "image_updated": {
+                  "type": "string"
+                },
+                "verifiedByAdminDate": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "category_name_ar": {
+                      "type": "string"
+                    },
+                    "active": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "category_name_ar",
+                    "active"
+                  ]
+                },
+                "brand": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "brand_name_ar": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "brand_name_ar"
+                  ]
+                },
+                "model": {
+                  "type": "object",
+                  "properties": {
+                    "_id": {
+                      "type": "string"
+                    },
+                    "model_name_ar": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "_id",
+                    "model_name_ar"
+                  ]
+                },
+                "variant": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "_id": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "_id"
+                      ]
+                    }
+                  ]
+                },
+                "id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "product_images",
+                "defected_images",
+                "description",
+                "answer_to_questions",
+                "answer_to_questions_ar",
+                "answer_to_questions_migration",
+                "answer_to_questions_ar_migration",
+                "unansweredquestions",
+                "unmatchedquestions",
+                "grade",
+                "grade_ar",
+                "score",
+                "previous_grade",
+                "previous_score",
+                "bidding",
+                "save_as_draft_step",
+                "current_bid_price",
+                "favourited_by",
+                "status",
+                "sell_status",
+                "questionnaire_migration_status",
+                "isApproved",
+                "isExpired",
+                "isFraudDetected",
+                "verified_date",
+                "isListedBefore",
+                "highlights",
+                "attributes",
+                "highlightsAdded",
+                "isReported",
+                "reportedBy",
+                "isVerifiedByAdmin",
+                "isPriceUpdating",
+                "variant_attributes_selections",
+                "isBiddingProduct",
+                "trade_in",
+                "trade_in_status",
+                "listingSource",
+                "_id",
+                "user_id",
+                "category_id",
+                "brand_id",
+                "model_id",
+                "varient",
+                "varient_ar",
+                "body_cracks",
+                "sell_price",
+                "bid_price",
+                "pick_up_address",
+                "createdDate",
+                "updatedDate",
+                "__v",
+                "expiryDate",
+                "code",
+                "varient_id",
+                "response",
+                "model_migration_source",
+                "model_variant_map_id",
+                "variant_migration_source",
+                "mismatch_model_migration",
+                "rejected_reasons",
+                "rejected_timestamp",
+                "image_updated",
+                "verifiedByAdminDate",
+                "category",
+                "brand",
+                "model",
+                "variant",
+                "id"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "info",
+        "results"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "timeStamp": {
+      "type": "string"
+    },
+    "violations": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "message",
+    "responseData",
+    "status",
+    "timeStamp",
+    "violations"
+  ]
+}

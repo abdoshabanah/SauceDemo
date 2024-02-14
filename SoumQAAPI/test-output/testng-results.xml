@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-14T16:36:01 EET" name="Default suite" finished-at="2024-02-14T16:36:08 EET" duration-ms="6926">
+    <groups>
+    </groups>
+    <test started-at="2024-02-14T16:36:01 EET" name="Default test" finished-at="2024-02-14T16:36:08 EET" duration-ms="6926">
+      <class name="DemoProjectRA.SoumApi">
+        <test-method signature="CheckProductsAPI()[pri:0, instance:DemoProjectRA.SoumApi@27462a88]" started-at="2024-02-14T16:36:01 EET" name="CheckProductsAPI" finished-at="2024-02-14T16:36:08 EET" duration-ms="6847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckProductsAPI -->
+      </class> <!-- DemoProjectRA.SoumApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
